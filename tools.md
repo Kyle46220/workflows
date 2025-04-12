@@ -16,7 +16,11 @@
  - this is just a chat interface where you can paste in your whole project if you use gemini coder. its good because its free. and it never runs out of context. 
 
 ### Claude Desktop
- if you use Claude you can easily add your project github repo to a chat so it can understand i. but it doesn;t have abigger context window so aistudio/geminicoder is better.  
+ if you use Claude you can easily add your project github repo to a chat so it can understand i. but it doesn't have a bigger context window so aistudio/geminicoder is better.  
+
+## Deepseek 
+ - https://www.deepseek.com/ 
+ - it has this really good reasoning where if you give it a logic problem it will just keep thinking about it until it has a solution. 
 
 ## Coding agents
     - claude code - this is prettty good at implementing full features automaticallyy that work wihtout breaking stuff. but it gets expensive pretty quickly. 
@@ -24,6 +28,8 @@
 
 ## Agents
  - Manus Ai - this is a really good agent where you just type what you want and it will spend a couple of hours building the whole project, and testing and deploying. you only get a couple of goes with free credits. you need to specify what you want in lots of detail.  
+ - genspark super agent https://www.genspark.ai/ - apparently smarter than manus ai but haven't used it much yet. 
+ 
 - Devin - h havent used this yet, but it thinks its pretty good especially cos it manages project documentation as well as the code. 
 
 ## app prototype builders
@@ -35,7 +41,7 @@
 ## Documentation
  - Codeguide - https://www.codeguide.dev/
   - you describe your app and it will give you a set of docs you would need to specify your project. it can be good to get an idea of what your project docs might look like so you can understand it better. but the deocs themselves are not precise enought to be that useful really. 
-  
+
 
 
 
