@@ -1,0 +1,78 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+---
+description: Enforces MDC rule creation standards for new cursor rules
+globs: .cursor/rules/*.mdc
+tags: [meta-rules, standards]
+priority: 1  # Highest priority for rule-about-rules
+version: 1.0.0
+---
+
+# MDC Rule Creation Standards
+
+## Context
+Applies when creating or modifying MDC rule files to ensure:
+- Consistent structure across rules
+- Effective AI comprehension
+- Maintainable rule hierarchy
+
+## Requirements
+1. **File Organization**
+   - Store in `.cursor/rules/` directory
+   - Use `NNN_name.mdc` naming (001-299 numbering)
+   - Group by prefix ranges:
+     - 001-099: Core workspace rules
+     - 100-199: Integration rules
+     - 200-299: Pattern rules
+
+2. **Header Structure**  
+   Mandatory frontmatter fields:
+   ```
+   ---
+   description: 
+   globs: 
+   tags: []
+   priority: 
+   version: 
+   ---
+   ```
+
+3. **Content Standards**
+   - Keep body under 25 lines
+   - Use H2 headers for main sections
+   - Include both positive and negative examples
+   - Reference related rules with @ notation
+   - Avoid absolute file paths in globs
+
+## Examples
+
+
+Good: Modern React component pattern
+```
+---
+description: React component standards
+globs: src/components/**/*.tsx
+tags: [react, components]
+priority: 2
+---
+# React Component Standards
+
+**File Structure**
+- Use named exports
+- Separate concerns with hooks
+- Type props with TypeScript
+```
+
+
+
+Poor: Vague component rule
+```
+# Components
+Make good components
+Put files where they belong
+```
+
+
