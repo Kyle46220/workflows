@@ -1,0 +1,10 @@
+New workflow using augment code agent and Ai studio. 
+
+I load to context into ai-studio. with the prompt descfibinig the refactor implementation ii'd like to do.
+ask the following 
+"show your undersstanding of my idea.brainstorm some ideas about ways this could be implemented. Don't implement it yet."
+"what info or documentation would be required if we handed this over to another developer to implement?"
+"write the docs"
+"write some unit tests"
+
+copy all docs and tests over to augment code and ask it to run the implemntation from these. 
