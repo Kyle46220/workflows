@@ -29,8 +29,8 @@
 ## Agents
  - Manus Ai - this is a really good agent where you just type what you want and it will spend a couple of hours building the whole project, and testing and deploying. you only get a couple of goes with free credits. you need to specify what you want in lots of detail.  
  - genspark super agent https://www.genspark.ai/ - apparently smarter than manus ai but haven't used it much yet. 
- 
-- Devin - h havent used this yet, but it thinks its pretty good especially cos it manages project documentation as well as the code. 
+
+- Devin - havent used this yet, but it thinks its pretty good especially cos it manages project documentation as well as the code. 
 
 ## app prototype builders
  They all kind of do the same thing. you just type in what yoyu want and it builds a ui. I think Replit can do Flutter apps.   
@@ -40,7 +40,7 @@
 
 ## Documentation
  - Codeguide - https://www.codeguide.dev/
-  - you describe your app and it will give you a set of docs you would need to specify your project. it can be good to get an idea of what your project docs might look like so you can understand it better. but the deocs themselves are not precise enought to be that useful really. 
+  - you describe your app and it will give you a set of docs you would need to specify your project. it can be good to get an idea of what your project docs might look like so you can understand it better. but for my project the docs weren't precise enough to be that useful. 
 
 
 
